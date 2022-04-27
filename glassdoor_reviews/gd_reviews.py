@@ -1,8 +1,5 @@
-from email import header
-from click import command
 import requests
 from bs4 import BeautifulSoup
-from sympy import div
 
 def extract(page):
     headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36'}
@@ -12,12 +9,24 @@ def extract(page):
     return soup
 
 def transform(soup):
+    pros_list = []
+    cons_list = []
+    final_list = []
     divs = soup.find_all('div', class_ = 'gdReview')
     for item in divs:
         author_info = item.find('span', class_ = 'authorJobTitle').text.strip()
-        pros = item.find('p', class_ = 'mt-0 mb-0 pb v2__EIReviewDetailsV2__bodyColor v2__EIReviewDetailsV2__lineHeightLarge v2__EIReviewDetailsV2__isExpanded').text.strip()
-        cons = item.find('p', class_ = 'mt-0 mb-0 pb v2__EIReviewDetailsV2__bodyColor v2__EIReviewDetailsV2__lineHeightLarge v2__EIReviewDetailsV2__isExpanded')[0].text.strip()
-        print(cons)
+        for pros in item.find_all('span', {'data-test':'pros'}):
+            pros_list.append(pros.get_text())
+        for cons in item.find_all('span', {'data-test':'cons'}):
+            cons_list.append(cons.get_text())
+
+    length_list = len(cons_list)
+    i = 0
+    
+    while i < length_list:
+      final_list.append(pros_list[i] + ', ' + cons_list[i])
+      i += 1
+    print(final_list[0])
 
 c = extract('P1')
 transform(c)
