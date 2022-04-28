@@ -1,6 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 from datetime import datetime
+from googletrans import Translator
 import pandas as pd
 
 def extract():
@@ -26,10 +27,13 @@ def transform(soup):
         pros = item.find('span', {'data-test':'pros'}).text.strip().replace('\r\n', '')
         cons = item.find('span', {'data-test':'cons'}).text.strip().replace('\r\n', '')
         opinion = pros + ', ' + cons
+
+        translator = Translator()
+        opinion_en = translator.translate(opinion).text
         
         review = {
             'rating': rating,
-            'opinion': opinion,
+            'opinion': opinion_en,
             'date': date_clean_str,
             'source': 'glassdoor'
         }
