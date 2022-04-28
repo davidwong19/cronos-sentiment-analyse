@@ -6,8 +6,8 @@ import pandas as pd
 # Function for extracting the page
 def extract(page):
     headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36'}
-    #url = f'https://nl.glassdoor.be/Reviews/Cronos-Reviews-E871033_{page}.htm?sort.sortType=RD&sort.ascending=false&filter.iso3Language=nld' 
-    url = f'https://www.glassdoor.co.uk/Reviews/Cronos-Reviews-E871033_{page}.htm?sort.sortType=RD&sort.ascending=false&filter.iso3Language=eng'
+    url = f'https://nl.glassdoor.be/Reviews/Cronos-Reviews-E871033_{page}.htm?sort.sortType=RD&sort.ascending=false&filter.iso3Language=nld' 
+    #url = f'https://www.glassdoor.co.uk/Reviews/Cronos-Reviews-E871033_{page}.htm?sort.sortType=RD&sort.ascending=false&filter.iso3Language=eng'
     r = requests.get(url,headers=headers)
     soup = BeautifulSoup(r.content, 'html.parser')
     return soup
@@ -52,4 +52,4 @@ for i in range(0, 10):
 # Writing to a CSV
 df = pd.DataFrame(reviewlist)
 print(df.head())
-df.to_csv('reviews_gd_en.csv')
+df.to_csv('./CSV_Files/reviews_gd_nl.csv')
