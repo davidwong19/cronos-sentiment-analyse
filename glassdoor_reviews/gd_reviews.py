@@ -1,32 +1,55 @@
 import requests
 from bs4 import BeautifulSoup
+from datetime import datetime
+import pandas as pd
 
+# Function for extracting the page
 def extract(page):
     headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36'}
-    url = f'https://nl.glassdoor.be/Reviews/Cronos-Reviews-E871033_{page}.htm?filter.iso3Language=nld'
+    #url = f'https://nl.glassdoor.be/Reviews/Cronos-Reviews-E871033_{page}.htm?sort.sortType=RD&sort.ascending=false&filter.iso3Language=nld' 
+    url = f'https://www.glassdoor.co.uk/Reviews/Cronos-Reviews-E871033_{page}.htm?sort.sortType=RD&sort.ascending=false&filter.iso3Language=eng'
     r = requests.get(url,headers=headers)
     soup = BeautifulSoup(r.content, 'html.parser')
     return soup
 
+# Function for transforming the page content to a dictionary
 def transform(soup):
-    pros_list = []
-    cons_list = []
-    final_list = []
+    # Div with all the reviews inside
     divs = soup.find_all('div', class_ = 'gdReview')
-    for item in divs:
-        author_info = item.find('span', class_ = 'authorJobTitle').text.strip()
-        for pros in item.find_all('span', {'data-test':'pros'}):
-            pros_list.append(pros.get_text())
-        for cons in item.find_all('span', {'data-test':'cons'}):
-            cons_list.append(cons.get_text())
-
-    length_list = len(cons_list)
-    i = 0
     
-    while i < length_list:
-      final_list.append(pros_list[i] + ', ' + cons_list[i])
-      i += 1
-    print(final_list[0])
+    # Going over each review in the div
+    for item in divs:
+        rating = item.find('span', class_ = 'ratingNumber mr-xsm').text.strip() # Get Rating
+        author_info = item.find('span', class_ = 'authorJobTitle').text.strip() # Get AuthorInfo
+        
+        index = author_info.find(' -') # Get index of '-'
+        date = author_info[:index] # Get the date from 0 index
+        date_clean = datetime.strptime(date, '%b %d, %Y').date() # Convert date to datetime object, %Y %m %d
+        date_clean_str = date_clean.strftime('%d/%m/%Y') # Convert datetime to str with format of dd/mm/yyyy
 
-c = extract('P1')
-transform(c)
+        pros = item.find('span', {'data-test':'pros'}).text.strip().replace('\r\n', '') # Get pros
+        cons = item.find('span', {'data-test':'cons'}).text.strip().replace('\r\n', '') # Get cons
+        opinion = pros + ', ' + cons # Combining pros and cons in one opinion string
+        
+        # Put in an dictionary
+        review = {
+            'rating': rating,
+            'opinion': opinion,
+            'date': date_clean_str,
+            'source': 'glassdoor'
+        }
+        reviewlist.append(review) # adding the dictionary to a list
+    return
+
+reviewlist = []
+
+# Going over the pages
+for i in range(0, 10):
+    print(f'Getting page {i}')
+    c = extract(f'P{i}')
+    transform(c)
+
+# Writing to a CSV
+df = pd.DataFrame(reviewlist)
+print(df.head())
+df.to_csv('reviews_gd_en.csv')
