@@ -44,4 +44,4 @@ transform(c)
 
 df = pd.DataFrame(reviewlist)
 print(df.head())
-df.to_csv('reviews_gd_fr.csv')
+df.to_csv('./CSV_Files/reviews_gd_fr.csv', index=False)
