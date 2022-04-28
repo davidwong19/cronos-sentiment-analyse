@@ -1,6 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 from datetime import datetime
+from googletrans import Translator
 import pandas as pd
 
 # Function for extracting the page
@@ -30,6 +31,10 @@ def transform(soup):
         pros = item.find('span', {'data-test':'pros'}).text.strip().replace('\r\n', '') # Get pros
         cons = item.find('span', {'data-test':'cons'}).text.strip().replace('\r\n', '') # Get cons
         opinion = pros + ', ' + cons # Combining pros and cons in one opinion string
+
+        # This piece of code will translate the NL opinion to EN
+        #translator = Translator()
+        #opinion_tr = translator.translate(opinion).text # Get only the translated text
         
         # Put in an dictionary
         review = {
@@ -52,4 +57,4 @@ for i in range(0, 10):
 # Writing to a CSV
 df = pd.DataFrame(reviewlist)
 print(df.head())
-df.to_csv('./CSV_Files/reviews_gd_en.csv', index=False)
+df.to_csv('./CSV_Files/reviews_gd_en.csv', index=False) # Index not included in CSV
