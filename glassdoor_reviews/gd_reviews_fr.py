@@ -45,7 +45,7 @@ def transform(soup):
             'opinion': opinion_en,
             'date': date_clean_str,
             'source': 'glassdoor',
-            'company': 'HeadCount'
+            'company': 'HeadCount' # CHANGE THIS
         }
         reviewlist.append(review)
     return
