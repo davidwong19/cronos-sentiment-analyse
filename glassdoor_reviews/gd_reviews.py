@@ -32,7 +32,7 @@ def transform(soup):
         cons = item.find('span', {'data-test':'cons'}).text.strip().replace('\r\n', '') # Get cons
         opinion = pros + ', ' + cons # Combining pros and cons in one opinion string
 
-        # This piece of code will translate the NL opinion to EN
+        # This piece of code will translate the opinion in whatever language to EN
         #translator = Translator()
         #opinion_tr = translator.translate(opinion).text # Get only the translated text
         
@@ -43,7 +43,7 @@ def transform(soup):
             'date': date_clean_str,
             'source': 'glassdoor'
         }
-        reviewlist.append(review) # adding the dictionary to a list
+        reviewlist.append(review) # Adding the dictionary to a list
     return
 
 reviewlist = []
