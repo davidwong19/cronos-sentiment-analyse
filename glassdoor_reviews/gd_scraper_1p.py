@@ -4,11 +4,13 @@ from datetime import datetime
 from googletrans import Translator
 import pandas as pd
 
+
 def extract():
     headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36'}
     #url = f'https://fr.glassdoor.be/Avis/Cronos-Avis-E871033.htm?sort.sortType=RD&sort.ascending=false&filter.iso3Language=fra'
     #url = 'https://nl.glassdoor.be/Reviews/Dynatos-Reviews-E6034680.htm'
-    url = 'https://nl.glassdoor.be/Reviews/Dynatos-Reviews-E6034680.htm'
+    # www.glassdoor.co.uk
+    url = 'https://nl.glassdoor.be/Reviews/calibrate-Reviews-E4794775.htm'
     r = requests.get(url,headers=headers)
     soup = BeautifulSoup(r.content, 'html.parser')
     return soup
@@ -38,7 +40,7 @@ def transform(soup):
             'opinion': opinion_en,
             'date': date_clean_str,
             'source': 'glassdoor',
-            'company': 'Jungle Minds' # CHANGE THIS
+            'company': '' # CHANGE THIS
         }
         reviewlist.append(review)
     return
@@ -50,4 +52,4 @@ transform(c)
 
 df = pd.DataFrame(reviewlist)
 print(df.head())
-df.to_csv('./CSV_Files/reviews_gd_companies3.csv', index=False, mode='a', header=False)
+df.to_csv('glassdoor_reviews/CSV_Files/reviews_gd_companies3.csv', index=False, mode='a', header=False)
