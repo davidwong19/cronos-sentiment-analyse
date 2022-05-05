@@ -1,0 +1,27 @@
+[
+  {
+    "opinion": "Fun, lively company with a focus on delivering great products.
+	A Typical day at work:
+	plan posts for the day/coming days, read up on emails and social media posts, discuss PR & marketing strategies, planning for our Game Expo: 1UP, making visuals for posts to share, talking with the devs and giving feedback on their games
+	What I've learned:
+	new tools to use, news skills (photoshop, Premiere...), content planning. putting deadlines on others to get my content in time.
+
+	Management:
+	Great superior, doesn't not feel like a typical boss/employee relationship. Open to suggestions and feedback.
+
+	Workplace culture:
+	Flexible hours, expecting only for your job to be done by reasonable deadlines, fun colleagues who like to chat during lunch and play a game afterwards. Fun group to hang out with.
+
+	The hardest part of the job:
+	managing my time. there is a lot to be done and I always see ways to improve my work so the stopping point is hard to determine. Bybthe very nature of the job (social media) it also means I have to put in some work outside of office hours
+
+	The most enjoyable part of the job:
+	Working with a great team, in a company working on VIDEO GAMES: my lifelong dream. It's a culture I've been invested in since pretty much forever and now I get to work in the industry.
+	Pros
+	Flexible hours, Extra benefits (car, phone, laptop), the actual job is fun to do
+	Cons
+	subpar public transport connection",
+    "source": "glassdoor",
+    "date": "13/03/2019"
+  },
+]
