@@ -43,10 +43,7 @@ finalScroll = 1000
   
 while True:
     driver.execute_script(f"window.scrollTo({initialScroll}, {finalScroll})")
-    # this command scrolls the window starting from
-    # the pixel value stored in the initialScroll 
-    # variable to the pixel value stored at the
-    # finalScroll variable
+    # Scroll to the last pixel of the page
     initialScroll = finalScroll
     finalScroll += 1000
   
