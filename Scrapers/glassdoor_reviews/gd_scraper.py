@@ -1,3 +1,4 @@
+# Import necessary packages
 import requests
 from bs4 import BeautifulSoup
 from datetime import datetime
@@ -55,6 +56,6 @@ for i in range(0, 10):
     transform(c)
 
 # Writing to a CSV
-df = pd.DataFrame(reviewlist)
-print(df.head())
-df.to_csv('./CSV_Files/reviews_gd_en.csv', index=False) # Index not included in CSV
+df = pd.DataFrame(reviewlist) # List to pandas dataframe
+print(df.head()) # Printing the first few entries of the pandas dataframe, to check
+df.to_csv('./CSV_Files/reviews_gd_en.csv', index=False) # Converting pandas dataframe to a CSV file
