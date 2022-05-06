@@ -1,1 +1,3 @@
-# cronos-sentiment-analyse
+# Cronos Sentiment Analyse Breakdown
+
+1. 
