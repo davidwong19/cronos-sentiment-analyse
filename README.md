@@ -9,7 +9,7 @@ This is an readme file, that will explain how to use the scripts we used to gath
 
 *Why we chose these technologies?*
 - Partly because we are already familiar with these technologies because of the use in some of our school courses.
-- Programs are all free/open-source. :sweat_smile:
+- Programs are all free/open-source. :satisfied:
   
 ## 1. The use of scrapers to gather review data
 
