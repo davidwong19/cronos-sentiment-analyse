@@ -16,6 +16,10 @@ This is an readme file, that will explain how to use the scripts we used to gath
 We will be using Python for scraping some of the websites. So there will be some necessities before running the scripts to scrape these websites.
 We used pip to install the packages.
 
+For some scrapers we used Selenium to scrape the webapplication. You will not only need to install the Selenium package. But you will need to webdrivers, according to your browser. More info: [Selenium with Python](https://selenium-python.readthedocs.io/)
+
 - 	`pip install pandas`
 -   `pip install googletrans`
--   
+-   `pip install requests`
+-   `pip install beautifulsoup4`
+-   `pip install selenium`
