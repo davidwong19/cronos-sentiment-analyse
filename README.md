@@ -32,8 +32,8 @@ For some scrapers we used Selenium to scrape the webapplication. You will not on
 - beyondgaming
 - facebook
 
-we only made a scraper for glassdoor. sources like facebook, indeed and  beyondgaming we used a chrome extention  called 'instant data scraper' 
-and for the googl maps review we used a site called 'https://botster.io/registration'.
+We made an scraper for Glassdoor and Indeed. sources like facebook, stepstone and  beyondgaming we used a chrome extention  called 'instant data scraper' 
+and for the google maps review we used a site called 'https://botster.io/registration'.
 
 ## 3. folders
 
