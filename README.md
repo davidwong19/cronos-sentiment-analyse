@@ -24,8 +24,20 @@ For some scrapers we used Selenium to scrape the webapplication. You will not on
 -   `pip install beautifulsoup4`
 -   `pip install selenium`
 -   `pip install textblob`
+## 2. sources used to create dataset 'reviews_cronos_groep.csv'
 
-## 2. code for datavisualisatie folder
+- indeed
+- glassdoor
+- googl maps review
+- beyondgaming
+- facebook
+
+we only made a scraper for glassdoor. sources like facebook, indeed and  beyondgaming we used a chrome extention  called 'instant data scraper' 
+and for the googl maps review we used a site called 'https://botster.io/registration'.
+
+## 3. folders
+
+# 1. code for datavisualisatie folder
 
 in this map you will find:  
 
