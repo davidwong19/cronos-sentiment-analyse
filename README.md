@@ -35,9 +35,9 @@ For some scrapers we used Selenium to scrape the webapplication. You will not on
 we only made a scraper for glassdoor. sources like facebook, indeed and  beyondgaming we used a chrome extention  called 'instant data scraper' 
 and for the googl maps review we used a site called 'https://botster.io/registration'.
 
-## 3. folders
+# 3. folders
 
-# 1. code for datavisualisatie folder
+ 1. code for datavisualisatie folder
 
 in this map you will find:  
 
