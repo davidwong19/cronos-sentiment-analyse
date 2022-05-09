@@ -25,10 +25,10 @@ def transform(soup):
         date_clean = datetime.strptime(date, '%b %d, %Y').date()
         date_clean_str = date_clean.strftime('%d/%m/%Y')
 
-        
-        pros = item.find('span', {'data-test':'pros'}).text.strip().replace('\r\n', '')
-        cons = item.find('span', {'data-test':'cons'}).text.strip().replace('\r\n', '')
-        opinion = pros + ', ' + cons
+        sum = item.find('span', class_ = 'css-1cxc9zk e1wnkr790')
+        pros = item.find('span', class_ = 'css-82l4gy eu4oa1w0').text.strip().replace('\r\n', '')
+        cons = item.find('span', class_ = 'css-82l4gy eu4oa1w0').text.strip().replace('\r\n', '')
+        opinion = f'{sum}, {pros}, {cons}'
 
         translator = Translator()
         opinion_en = translator.translate(opinion).text
@@ -37,7 +37,7 @@ def transform(soup):
             'rating': rating,
             'opinion': opinion_en,
             'date': date_clean_str,
-            'source': 'glassdoor',
+            'source': 'indeed',
             'company': '' # CHANGE THIS
         }
         reviewlist.append(review)
@@ -50,4 +50,4 @@ transform(c)
 
 df = pd.DataFrame(reviewlist)
 print(df.head())
-df.to_csv('glassdoor_reviews/CSV_Files/reviews_gd_companies3.csv', index=False, mode='a', header=False)
+df.to_csv('indeed_reviews/CSV_Files/reviews_indeed.csv', index=False, mode='a', header=False)
