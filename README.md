@@ -37,7 +37,7 @@ and for the googl maps review we used a site called 'https://botster.io/registra
 
 ## 3. folders
 
-# 1. code for datavisualisatie folder
+ 1. code for datavisualisatie folder
 
 in this map you will find:  
 
