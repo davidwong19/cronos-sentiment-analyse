@@ -23,3 +23,17 @@ For some scrapers we used Selenium to scrape the webapplication. You will not on
 -   `pip install requests`
 -   `pip install beautifulsoup4`
 -   `pip install selenium`
+-   `pip install textblob`
+
+## 2. code for datavisualisatie folder
+
+in this map you will find:  
+
+- `reviews_cronos_groep.csv`
+- `reviews_cronos_groep5.csv`                        
+- `sentiment analyse visualisatie.pbix`
+- `sentiment_analyse.ipynb`
+
+NOTE:Rating in the csv file is the opinoin of the person and  score is the score of the algoritme!
+`reviews_cronos_groep.csv`:this is the csv file that is used in `sentiment_analyse.ipynb` and this csv file contains all reviews of cronos and the smaller companies under cronos
+`sentiment_analyse.ipynb`: this file will create the csv file used for the `sentiment analyse visualisatie.pbix` the file that will be created is `reviews_cronos_groep5.csv`
