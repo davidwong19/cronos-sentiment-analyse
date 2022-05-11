@@ -8,6 +8,7 @@ import pandas as pd
 def extract():
     headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36'}
     url = 'https://be.indeed.com/cmp/Cronos-Interactive/reviews'
+    # url = 'https://be.indeed.com/cmp/Cronos/reviews'
     r = requests.get(url,headers=headers)
     soup = BeautifulSoup(r.content, 'html.parser')
     return soup
@@ -23,7 +24,11 @@ def transform(soup):
         
         date = re.sub(r'^.*(?=(\d{2} \w{3,} \d{4}))', '', author_info) # Regex to extract the date 
         date_en = translator.translate(date).text #translate the date to english, otherwise it will give problems when converting to dd/mm/YYYY
-        date_clean = datetime.strptime(date_en, r'%B %d, %Y').date()
+        try: 
+            date_clean = datetime.strptime(date_en, r'%d %B %Y').date()
+            break
+        except ValueError:
+            date_clean = datetime.strptime(date_en, r'%B %d, %Y').date()
         date_clean_str = date_clean.strftime('%d/%m/%Y')
 
         opinion = item.find('div', class_ = 'css-rr5fiy').text.strip()
@@ -48,4 +53,4 @@ transform(c)
 
 df = pd.DataFrame(reviewlist)
 print(df.head())
-df.to_csv('indeed_reviews/CSV_Files/reviews_indeed.csv', index=False, mode='a', header=False)
+df.to_csv(r'C:\Users\Rehts\Documents\Repositories\cronos-sentiment-analyse\Scrapers\indeed_reviews\CSV_Files\reviews_indeed.csv', mode='a', index=False, header=False) # The directory needs to be changed to where reviews_indeed.csv is located
