@@ -3,10 +3,10 @@ from bs4 import BeautifulSoup
 from datetime import datetime
 from googletrans import Translator
 import pandas as pd
-
+from pymongo import MongoClient
 
 def extract():
-    headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36'}
+    headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; 6x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36'}
     url = 'https://be.indeed.com/cmp/Cronos-Interactive/reviews'
     # url = 'https://be.indeed.com/cmp/Cronos/reviews'
     r = requests.get(url,headers=headers)
@@ -51,6 +51,17 @@ reviewlist = []
 c = extract()
 transform(c)
 
-df = pd.DataFrame(reviewlist)
-print(df.head())
-df.to_csv(r'C:\Users\Rehts\Documents\Repositories\cronos-sentiment-analyse\Scrapers\indeed_reviews\CSV_Files\reviews_indeed.csv', mode='a', index=False, header=False) # The directory needs to be changed to where reviews_indeed.csv is located
+# client = MongoClient ('mongodb+srv://user_2:123@cluster0.1g3pv.mongodb.net/test')
+# db = client['cronos_sentiment']
+# collection = db['NEW_reviews_cronos_groep']
+
+# qry = { 'company': 'Cronos Interactive'}
+
+# doc = collection.find(qry)
+
+# for x in doc:
+#     print(x)
+
+# df = pd.DataFrame(reviewlist)
+# print(df.head())
+# df.to_csv(r'C:\Users\Rehts\Documents\Repositories\cronos-sentiment-analyse\Scrapers\indeed_reviews\CSV_Files\reviews_indeed.csv', mode='a', index=False, header=False) # The directory needs to be changed to where reviews_indeed.csv is located
