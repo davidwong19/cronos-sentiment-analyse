@@ -13,10 +13,13 @@ This is an readme file, that will explain how to use the scripts we used to gath
   
 ## 1. The use of scrapers to gather review data
 
+Install Python
+[Download Python](https://www.python.org/downloads/)
+
 We will be using Python for scraping some of the websites. So there will be some necessities before running the scripts to scrape these websites.
 We used pip to install the packages.
 
-For some scrapers we used Selenium to scrape the webapplication. You will not only need to install the Selenium package. But you will need to webdrivers, according to your browser. More info: [Selenium with Python](https://selenium-python.readthedocs.io/)
+For the LinkedIn scraper we used Selenium to scrape the webapplication. You will not only need to install the Selenium package. But you will need to webdrivers, according to your browser. More info: [Selenium with Python](https://selenium-python.readthedocs.io/)
 
 - 	`pip install pandas`
 -   `pip install googletrans`
@@ -24,6 +27,10 @@ For some scrapers we used Selenium to scrape the webapplication. You will not on
 -   `pip install beautifulsoup4`
 -   `pip install selenium`
 -   `pip install textblob`
+
+### 1.2 Running the scripts
+You can run the python script by navigating to the **automation folder**. You need to change the directory in the various '.bat' files to where your 'python.exe' is located.
+
 ## 2. sources used to create dataset 'reviews_cronos_groep.csv'
 
 - indeed
