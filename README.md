@@ -13,7 +13,6 @@ This is an readme file, that will explain how to use the scripts we used to gath
   
 ## 1. The use of scrapers to gather review data
 
-Install Python
 [Download Python](https://www.python.org/downloads/)
 
 We will be using Python for scraping some of the websites. So there will be some necessities before running the scripts to scrape these websites.
