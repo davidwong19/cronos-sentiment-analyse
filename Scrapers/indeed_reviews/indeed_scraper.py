@@ -1,4 +1,4 @@
-import requests, re, locale
+import requests, re, pymongo
 from bs4 import BeautifulSoup
 from datetime import datetime
 from googletrans import Translator
@@ -21,35 +21,31 @@ def transform(soup):
         rating = item.find('button', class_ = 'css-1c33izo').text.strip()
         author_info = item.find('span', class_ = 'css-xvmbeo').text.strip()
         
-        date = re.sub(r'^.*(?=(\d{2} \w{3,} \d{4}))', '', author_info)
+        date = re.sub(r'^.*(?=(\d{2} \w{3,} \d{4}))', '', author_info) # Regex to extract the date 
         date_en = translator.translate(date).text #translate the date to english, otherwise it will give problems when converting to dd/mm/YYYY
         date_clean = datetime.strptime(date_en, r'%B %d, %Y').date()
         date_clean_str = date_clean.strftime('%d/%m/%Y')
 
-        sum = item.find('div', class_ = 'css-rr5fiy').text.strip()
-        pros = item.find('div', class_ = 'css-82l4gy eu4oa1w0')[0].text.strip()
-        print(pros)
-        # cons = item.find('span', class_ = 'css-82l4gy eu4oa1w0').text.strip().replace('\r\n', '')
-        # opinion = f'{sum}, {pros}, {cons}'
-
-        # translator = Translator()
-        # opinion_en = translator.translate(opinion).text
+        opinion = item.find('div', class_ = 'css-rr5fiy').text.strip()
+    
+        translator = Translator()
+        opinion_en = translator.translate(opinion).text
         
-        # review = {
-        #     'rating': rating,
-        #     'opinion': opinion_en,
-        #     'date': date_clean_str,
-        #     'source': 'indeed',
-        #     'company': '' # CHANGE THIS
-        # }
-        # reviewlist.append(review)
+        review = {
+            'rating': rating,
+            'opinion': opinion_en,
+            'date': date_clean_str,
+            'source': 'indeed',
+            'company': 'Cronos Interactive' # CHANGE THIS
+        }
+        reviewlist.append(review)
     return
 
-# reviewlist = []
+reviewlist = []
 
 c = extract()
 transform(c)
 
-# df = pd.DataFrame(reviewlist)
-# print(df.head())
-# df.to_csv('indeed_reviews/CSV_Files/reviews_indeed.csv', index=False, mode='a', header=False)
+df = pd.DataFrame(reviewlist)
+print(df.head())
+df.to_csv('indeed_reviews/CSV_Files/reviews_indeed.csv', index=False, mode='a', header=False)
