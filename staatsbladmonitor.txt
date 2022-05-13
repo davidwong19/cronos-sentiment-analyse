@@ -1,0 +1,2380 @@
+nodes=[ {
+
+    id: '0443807959',
+    shape: 'star',
+    color: {
+
+        background:'#F03967',
+        border:'#713E7F',
+        highlight: {
+            background: 'red', border:'black'
+        }
+    }
+
+    ,
+    value: 15,
+    label: 'CRONOS'
+}
+
+,
+{
+id: '0467132994', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'DE CRONOS GROEP'
+}
+
+,
+{
+
+id: '3',
+shape: 'dot',
+color: {
+
+    background:'green',
+    border:'#713E7F',
+    highlight: {
+        background: 'red', border:'black'
+    }
+}
+
+,
+value: 5,
+label: 'J. d.'
+}
+
+,
+{
+
+id: '4',
+shape: 'dot',
+color: {
+
+    background:'green',
+    border:'#713E7F',
+    highlight: {
+        background: 'red', border:'black'
+    }
+}
+
+,
+value: 5,
+label: 'D. D.'
+}
+
+,
+{
+id: '0861290318', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'NUCLYS'
+}
+
+,
+{
+id: '0449188489', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'VENTIGRATE'
+}
+
+,
+{
+id: '0458085765', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'CRONOS PUBLIC SERVICES, AFGEKORT : PPI'
+}
+
+,
+{
+id: '0462364653', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'ZIVA'
+}
+
+,
+{
+id: '0468727061', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'RELATIONSHIP MANAGEMENT CONSULTANTS, AFGEKORT : RMC'
+}
+
+,
+{
+id: '0471279052', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'KONO CONSULTANTS'
+}
+
+,
+{
+
+id: '11',
+shape: 'dot',
+color: {
+
+    background:'green',
+    border:'#713E7F',
+    highlight: {
+        background: 'red', border:'black'
+    }
+}
+
+,
+value: 5,
+label: ' C.'
+}
+
+,
+{
+id: '0475359683', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'COMPASS'
+}
+
+,
+{
+id: '0863846267', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'GEO SQUARE'
+}
+
+,
+{
+id: '0865300673', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'XPLORE GROUP'
+}
+
+,
+{
+id: '0865716288', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'FLEXSO'
+}
+
+,
+{
+id: '0871221633', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'IRELATE'
+}
+
+,
+{
+id: '0877273443', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'I-CROS'
+}
+
+,
+{
+id: '0879918375', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'ASTENA'
+}
+
+,
+{
+id: '0879919959', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'YARVIS'
+}
+
+,
+{
+id: '0881854615', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'CROSSPOINT SOLUTIONS'
+}
+
+,
+{
+id: '0887377180', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'QFRAME'
+}
+
+,
+{
+id: '0887866734', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'I4BI'
+}
+
+,
+{
+id: '0888916413', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'CRONOS ITS'
+}
+
+,
+{
+
+id: '24',
+shape: 'dot',
+color: {
+
+    background:'green',
+    border:'#713E7F',
+    highlight: {
+        background: 'red', border:'black'
+    }
+}
+
+,
+value: 5,
+label: ' i.'
+}
+
+,
+{
+id: '0891959243', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'UPTIME GROUP'
+}
+
+,
+{
+id: '0891958847', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'BONANZA GROUP'
+}
+
+,
+{
+id: '0893381381', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'NXTLVL'
+}
+
+,
+{
+id: '0896178149', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'OAK3 EDUCATION CENTER'
+}
+
+,
+{
+id: '0899638673', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'TRAVIO'
+}
+
+,
+{
+id: '0806063664', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'SMARTSYS'
+}
+
+,
+{
+id: '0806311906', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'UPSELL'
+}
+
+,
+{
+
+id: '32',
+shape: 'dot',
+color: {
+
+    background:'green',
+    border:'#713E7F',
+    highlight: {
+        background: 'red', border:'black'
+    }
+}
+
+,
+value: 5,
+label: ' A.'
+}
+
+,
+{
+id: '0818347131', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'IFACTO GROEP'
+}
+
+,
+{
+id: '0818344656', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'CRONOS INTERACTIVE'
+}
+
+,
+{
+id: '0822485170', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'MOONBEAT'
+}
+
+,
+{
+id: '0826038340', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'GO4LOGISTICS'
+}
+
+,
+{
+id: '0826338941', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'PREVIEWLABS'
+}
+
+,
+{
+id: '0899046676', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'CRONOS INTELLIGENCE'
+}
+
+,
+{
+
+id: '39',
+shape: 'dot',
+color: {
+
+    background:'green',
+    border:'#713E7F',
+    highlight: {
+        background: 'red', border:'black'
+    }
+}
+
+,
+value: 5,
+label: ' D.'
+}
+
+,
+{
+id: '0827604592', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'ATREVERSE'
+}
+
+,
+{
+id: '0478209901', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'AKTIV'
+}
+
+,
+{
+id: '0829695636', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'FLEXIBIT'
+}
+
+,
+{
+id: '0829694646', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'ROGUESIDE'
+}
+
+,
+{
+id: '0830899129', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'FERN VALLEY'
+}
+
+,
+{
+id: '0834305314', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'HEADCOUNT'
+}
+
+,
+{
+id: '0835660047', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'HEAVEN CAN WAIT'
+}
+
+,
+{
+id: '0843361154', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'SILENI STUDIOS'
+}
+
+,
+{
+id: '0848031507', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'VRIJDAG!'
+}
+
+,
+{
+id: '0502949948', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'ALUMNOS'
+}
+
+,
+{
+id: '0551880807', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'WE LOVE CONTENT'
+}
+
+,
+{
+id: '0552596627', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'FIRST WAVE'
+}
+
+,
+{
+id: '0555992617', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'YOUR OXYGEN'
+}
+
+,
+{
+id: '0557978741', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'INKUBIS'
+}
+
+,
+{
+id: '0557979137', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'XGD'
+}
+
+,
+{
+id: '0563491014', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'CRONOS BUSINESS SERVICES'
+}
+
+,
+{
+id: '0564750727', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'SMART CAR REPAIR GROUP'
+}
+
+,
+{
+id: '0568859765', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'THE COMPASS'
+}
+
+,
+{
+id: '0568854619', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'BIZTORY'
+}
+
+,
+{
+id: '0607878313', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'HOUSE OF INNOVATION, AFGEKORT : HOI'
+}
+
+,
+{
+id: '0844098750', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'DEJURISTEN'
+}
+
+,
+{
+id: '0635475803', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'JUNCTION'
+}
+
+,
+{
+id: '0637991764', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'DITRA GROUP'
+}
+
+,
+{
+id: '0637991863', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'KOO'
+}
+
+,
+{
+id: '0635671682', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'CO FOUNDRY'
+}
+
+,
+{
+id: '0641775853', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'MERCURITIME'
+}
+
+,
+{
+id: '0641774269', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'UNTRANSLATE'
+}
+
+,
+{
+
+id: '67',
+shape: 'dot',
+color: {
+
+    background:'green',
+    border:'#713E7F',
+    highlight: {
+        background: 'red', border:'black'
+    }
+}
+
+,
+value: 5,
+label: ' d.'
+}
+
+,
+{
+id: '0646891317', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'DYNATOS HOLDING'
+}
+
+,
+{
+id: '0650716085', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'DULL CONSULTING'
+}
+
+,
+{
+id: '0656941012', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'INTENSEC'
+}
+
+,
+{
+id: '0664883530', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'LEUTECH'
+}
+
+,
+{
+id: '0821203978', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'THE BREWERY WORKS'
+}
+
+,
+{
+id: '0664942225', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'DIVIRSITI'
+}
+
+,
+{
+id: '0669618615', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'INFRACONNECT'
+}
+
+,
+{
+id: '0669643557', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'ENGINITY'
+}
+
+,
+{
+id: '0669642864', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'IMPROV-IT'
+}
+
+,
+{
+
+id: '77',
+shape: 'dot',
+color: {
+
+    background:'green',
+    border:'#713E7F',
+    highlight: {
+        background: 'red', border:'black'
+    }
+}
+
+,
+value: 5,
+label: ' A.'
+}
+
+,
+{
+id: '0671584745', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'TPO ANGENCY'
+}
+
+,
+{
+id: '0673558496', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'VECTR.CONSULTING'
+}
+
+,
+{
+id: '0673563941', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'INNOVATION UNPLUGGED'
+}
+
+,
+{
+id: '0673552954', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'PIROS'
+}
+
+,
+{
+id: '0674822367', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'KOOACH'
+}
+
+,
+{
+id: '0675561448', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'HYPERION GROUP'
+}
+
+,
+{
+id: '0676555796', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'LOGITAIL'
+}
+
+,
+{
+id: '0676560944', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'DIGITAL EXCELLENCE, AFGEKORT : DIGEX'
+}
+
+,
+{
+id: '0677419096', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'CRONOS DMS'
+}
+
+,
+{
+id: '0677425729', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'IT S JAMES'
+}
+
+,
+{
+id: '0677541238', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'BLUEPORT INNOVATION FUND'
+}
+
+,
+{
+id: '0681957609', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'SUPERMACHINE'
+}
+
+,
+{
+id: '0680909415', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'BLUEHEALTH INNOVATION FUND'
+}
+
+,
+{
+id: '0681490821', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'CURIO'
+}
+
+,
+{
+id: '0681745791', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'SALAMANDER'
+}
+
+,
+{
+id: '0688925771', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'OECO REDACTIE'
+}
+
+,
+{
+
+id: '94',
+shape: 'dot',
+color: {
+
+    background:'green',
+    border:'#713E7F',
+    highlight: {
+        background: 'red', border:'black'
+    }
+}
+
+,
+value: 5,
+label: ' C.'
+}
+
+,
+{
+id: '0692701843', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'EIGER NORTH'
+}
+
+,
+{
+id: '0693693619', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'LEE en ALLY'
+}
+
+,
+{
+id: '0465918219', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'QUINTA ESSENTIA SOFTWARE DEVELOPMENT'
+}
+
+,
+{
+id: '0694718057', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'KEYSIGN'
+}
+
+,
+{
+id: '0700835886', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'MICRONOS'
+}
+
+,
+{
+id: '0707959745', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'HIGHFIVE'
+}
+
+,
+{
+id: '0711973169', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'OECO GROEP'
+}
+
+,
+{
+id: '0715738353', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'CRONOSF4C'
+}
+
+,
+{
+id: '0715739343', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'CRONOSIT4C'
+}
+
+,
+{
+id: '0717850379', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'MERISI'
+}
+
+,
+{
+id: '0723476181', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'EVRI'
+}
+
+,
+{
+id: '0727540580', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'ORLOX'
+}
+
+,
+{
+id: '0727720031', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'CRONOS LEUVEN'
+}
+
+,
+{
+id: '0732928733', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'BLUU'
+}
+
+,
+{
+id: '0732930614', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'RISE'
+}
+
+,
+{
+id: '0732931208', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'INSPIRE SPORTS'
+}
+
+,
+{
+id: '0733953270', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'VIDEOLABS'
+}
+
+,
+{
+id: '0733946837', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'LAW en CODE'
+}
+
+,
+{
+id: '0736898013', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'RADAR'
+}
+
+,
+{
+id: '0738974308', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'FIELDSIDE'
+}
+
+,
+{
+id: '0741578163', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'UFINITY OOST en WEST'
+}
+
+,
+{
+id: '0741578955', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'REASON-8'
+}
+
+,
+{
+id: '0744749271', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'LOCALYSE CLOUD'
+}
+
+,
+{
+id: '0759790508', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'BLACKSMITHS'
+}
+
+,
+{
+id: '0761802168', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'GO4LOGISTICS GROUP'
+}
+
+,
+{
+id: '0764992676', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'SPIRE GROUP'
+}
+
+,
+{
+id: '0644832046', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'WE ARE THE FORGE'
+}
+
+,
+{
+id: '0643870756', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'TECH DEPLOY'
+}
+
+,
+{
+id: '0822926719', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'CLARES'
+}
+
+,
+{
+id: '0477294735', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'EMPART'
+}
+
+,
+{
+id: '0807353863', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'FLEXSO DIGITAL'
+}
+
+,
+{
+id: '0890204632', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'CONTRIBUTE GROUP'
+}
+
+,
+{
+id: '0564753695', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'CONTINU-IT'
+}
+
+,
+{
+id: '0564751618', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'SLINGSHOT'
+}
+
+,
+{
+id: '0869772769', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'IADVISE'
+}
+
+,
+{
+id: '0881855209', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'I8C'
+}
+
+,
+{
+id: '0890209481', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'IS4U'
+}
+
+,
+{
+id: '0879917682', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'COMARK'
+}
+
+,
+{
+id: '0877274928', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'FREEBILITY'
+}
+
+,
+{
+id: '0564761912', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'PRODIGO'
+}
+
+,
+{
+id: '0821305136', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'GEN-C'
+}
+
+,
+{
+id: '0548976052', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'DYNATOS'
+}
+
+,
+{
+id: '0822555050', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'EVANCE'
+}
+
+,
+{
+id: '0822446865', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'CONNECTING THE DOTS'
+}
+
+,
+{
+id: '0873332471', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'EQUALMINDS'
+}
+
+,
+{
+id: '0822928303', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'CONTRIBUTE4J'
+}
+
+,
+{
+id: '0472614484', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'THRU'
+}
+
+,
+{
+id: '0887863863', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'THE CAMPUS'
+}
+
+,
+{
+id: '0808734035', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'E2 PARTNERS'
+}
+
+,
+{
+id: '0500488326', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'WAYS2WORK'
+}
+
+,
+{
+id: '0564742413', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'AUCTUS DIGITAS GROUP'
+}
+
+,
+{
+id: '0822784781', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'LITTLE MISS ROBOT'
+}
+
+,
+{
+id: '0557977949', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'NCONTROL'
+}
+
+,
+{
+id: '0564741423', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'FORWARD SOLUTIONS'
+}
+
+,
+{
+id: '0898889892', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'FLEXSO BRUSSELS'
+}
+
+,
+{
+id: '0869974687', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'CALIBRATE'
+}
+
+,
+{
+id: '0841288324', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'FOURSEVENS'
+}
+
+,
+{
+id: '0544884731', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'PEEL'
+}
+
+,
+{
+id: '0814790102', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'CAREALIZE'
+}
+
+,
+{
+id: '0521990256', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'THE SECURITY FACTORY'
+}
+
+,
+{
+id: '0807730480', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'HUMAIN'
+}
+
+,
+{
+id: '0544888392', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'DIGITALS'
+}
+
+,
+{
+id: '0833198326', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'ARTCORE SOCIETY'
+}
+
+,
+{
+id: '0474280411', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'EGOVA'
+}
+
+,
+{
+id: '0472531639', shape: 'diamond', color: '#d6a4f5', value: 10, label: '23 SECONDS'
+}
+
+,
+{
+id: '0839993571', shape: 'diamond', color: '#d6a4f5', value: 10, label: '2SKY'
+}
+
+,
+{
+id: '0835536917', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'HUMIX'
+}
+
+,
+{
+id: '0834341738', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'THE LEARNING HUB'
+}
+
+,
+{
+id: '0833198821', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'HRMC'
+}
+
+,
+{
+id: '0846804357', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'CAPITAL KNOWLEDGE'
+}
+
+,
+{
+id: '0810365120', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'MOBIZZ'
+}
+
+,
+{
+id: '0895229925', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'EXSERTUS'
+}
+
+,
+{
+id: '0846807822', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'MIND THE GAP'
+}
+
+,
+{
+id: '0544984305', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'INVOLVED'
+}
+
+,
+{
+id: '0836561256', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'MIRROR MIRROR'
+}
+
+,
+{
+id: '0836534730', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'CROSSPOINT PEOPLE'
+}
+
+,
+{
+id: '0877275522', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'IDA'
+}
+
+,
+{
+id: '0474280312', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'IPERFORM'
+}
+
+,
+{
+id: '0564763890', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'CLOUDAR'
+}
+
+,
+{
+id: '0474703944', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'GROUP-WAVE'
+}
+
+,
+{
+id: '0866714992', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'IW'
+}
+
+,
+{
+id: '0822929588', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'SYNTHIS PEOPLE'
+}
+
+,
+{
+id: '0474703647', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'RHEA'
+}
+
+,
+{
+id: '0829044845', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'BOULEVART'
+}
+
+,
+{
+id: '0898852577', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'C-DEV'
+}
+
+,
+{
+id: '0806319824', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'INSPIIRO.ME'
+}
+
+,
+{
+id: '0500878009', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'BAZOOKAS'
+}
+
+,
+{
+id: '0500497234', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'UPTIME ICT'
+}
+
+,
+{
+id: '0834672330', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'ASTENA WALLONIE'
+}
+
+,
+{
+id: '0884167272', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'ELISION'
+}
+
+,
+{
+id: '0818285268', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'LOCALYSE'
+}
+
+,
+{
+id: '0846805941', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'THREE HEADED GIANT'
+}
+
+,
+{
+id: '0822881187', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'UFINITY'
+}
+
+,
+{
+id: '0526904196', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'LEARNIA'
+}
+
+,
+{
+id: '0895308119', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'U-VISION'
+}
+
+,
+{
+id: '0884167866', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'EPACT'
+}
+
+,
+{
+id: '0888908493', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'GEO SOLUTIONS'
+}
+
+,
+{
+id: '0479639957', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'DISTRICT01'
+}
+
+,
+{
+id: '0895140942', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'CONVITAS'
+}
+
+,
+{
+id: '0806066040', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'TALENT HIKE'
+}
+
+,
+{
+id: '0474267543', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'XTREME-INTEGRATIONS'
+}
+
+,
+{
+id: '0895216166', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'HESTIA'
+}
+
+,
+{
+id: '0833154378', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'DOTS en ARROWS'
+}
+
+,
+{
+id: '0829700980', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'MONKEYSHOT'
+}
+
+,
+{
+id: '0822500117', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'ICTINUS'
+}
+
+,
+{
+id: '0536781073', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'DC2B'
+}
+
+,
+{
+id: '0808064240', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'NEORIA'
+}
+
+,
+{
+id: '0884158166', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'I-MOVE'
+}
+
+,
+{
+id: '0822743013', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'POLARIS DIGITAL COMMERCE'
+}
+
+,
+{
+id: '0463135408', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'XPLORE'
+}
+
+,
+{
+id: '0808072653', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'TAOS'
+}
+
+,
+{
+id: '0472593797', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'M2Q'
+}
+
+,
+{
+id: '0846804852', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'BLASTIC'
+}
+
+,
+{
+id: '0836535621', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'PHANES'
+}
+
+,
+{
+id: '0806057231', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'AXEASY'
+}
+
+,
+{
+id: '0836536215', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'FORMICA'
+}
+
+,
+{
+id: '0544808121', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'EXITAS'
+}
+
+,
+{
+id: '0837064270', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'CROSS-BOW'
+}
+
+,
+{
+id: '0411954446', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'RESIDENCE LES ONDES'
+}
+
+,
+{
+id: '0809511718', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'FENEGO'
+}
+
+,
+{
+id: '0846806139', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'XPLODATA'
+}
+
+,
+{
+id: '0526904691', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'BRYXX'
+}
+
+,
+{
+id: '0881854912', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'EPIC DATA TECHNOLOGIES'
+}
+
+,
+{
+id: '0892821751', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'AT ONCE'
+}
+
+,
+{
+id: '0897445186', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'INFUTION'
+}
+
+,
+{
+id: '0867274426', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'FAROS'
+}
+
+,
+{
+id: '0871215990', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'RHINOX'
+}
+
+,
+{
+id: '0521951654', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'INCITO'
+}
+
+,
+{
+id: '0891546695', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'GESTIO'
+}
+
+,
+{
+id: '0886316714', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'KOHERA'
+}
+
+,
+{
+id: '0887865447', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'OPTIS'
+}
+
+,
+{
+id: '0881856001', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'INFRONT'
+}
+
+,
+{
+id: '0893387717', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'KONATO'
+}
+
+,
+{
+id: '0810613063', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'SCALECITY'
+}
+
+,
+{
+id: '0898189415', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'COMMA GROUP'
+}
+
+,
+{
+id: '0472985658', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'UPTIME TECHNOLOGIES, AFGEKORT : UPTIME'
+}
+
+,
+{
+id: '0458213449', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'THE CUSTOMER LINK'
+}
+
+,
+{
+id: '0845936901', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'IODE CONSULTING'
+}
+
+,
+{
+id: '0895212208', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'THE AGILE INFORMATION FACTORY'
+}
+
+,
+{
+id: '0870206893', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'DATAMOTIVE'
+}
+
+,
+{
+id: '0544881266', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'SOFTN'
+}
+
+,
+{
+id: '0551885755', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'ILEAN'
+}
+
+,
+{
+id: '0898963633', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'ENERLOGIK'
+}
+
+,
+{
+id: '0890199979', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'SBI CONSULTING'
+}
+
+,
+{
+id: '0863844386', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'IFACTO BUSINESS SOLUTIONS'
+}
+
+,
+{
+id: '0806065149', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'ARXUS'
+}
+
+,
+{
+id: '0807729292', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'BIG INDUSTRIES'
+}
+
+,
+{
+id: '0833198425', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'INFOFARM'
+}
+
+,
+{
+id: '0877260971', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'CUM LAUDE'
+}
+
+,
+{
+id: '0473071275', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'WIJS'
+}
+
+,
+{
+id: '0544881761', shape: 'diamond', color: '#d6a4f5', value: 10, label: '0404'
+}
+
+,
+{
+id: '0881856989', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'INTERLIGO'
+}
+
+,
+{
+id: '0820531116', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'SUIVO'
+}
+
+,
+{
+id: '0557976959', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'APPFOUNDRY'
+}
+
+,
+{
+id: '0894856573', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'IFACTO ENTERPRISE SOLUTIONS'
+}
+
+,
+{
+id: '0895228638', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'INFOSENTRY'
+}
+
+,
+{
+id: '0548988128', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'QUADATA'
+}
+
+,
+{
+id: '0526998228', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'GEO SOLUTIONS SUD'
+}
+
+,
+{
+id: '0567903326', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'INTODATA'
+}
+
+,
+{
+id: '0822680853', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'TYRION'
+}
+
+,
+{
+id: '0810369375', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'NXT-IT'
+}
+
+,
+{
+id: '0822025609', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'CONTRIBUTE'
+}
+
+,
+{
+id: '0897431132', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'ICREDIT'
+}
+
+,
+{
+id: '0822841694', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'STRATEFY'
+}
+
+,
+{
+id: '0468727457', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'CTG HEALTH SOLUTIONS'
+}
+
+,
+{
+id: '0819575764', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'ICAPPS'
+}
+
+,
+{
+id: '0597666191', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'SMARTSPOKEN'
+}
+
+,
+{
+id: '0646870234', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'UX-MEN'
+}
+
+,
+{
+id: '0646890525', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'NARATO'
+}
+
+,
+{
+id: '0646890822', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'IBIZZ'
+}
+
+,
+{
+id: '0646891020', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'THE BEEHIVE'
+}
+
+,
+{
+id: '0648956328', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'MARKETING en MORE BELGIUM'
+}
+
+,
+{
+id: '0648960682', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'WE LIKE YOU'
+}
+
+,
+{
+id: '0648963454', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'GLUO'
+}
+
+,
+{
+id: '0648965137', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'SMARTIFY'
+}
+
+,
+{
+id: '0648966820', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'OSMOSIS ADVISORY'
+}
+
+,
+{
+id: '0650717075', shape: 'diamond', color: '#d6a4f5', value: 10, label: '2COMMIT'
+}
+
+,
+{
+id: '0654925093', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'EVOLANE'
+}
+
+,
+{
+id: '0656936854', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'JSTACK'
+}
+
+,
+{
+id: '0656943089', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'INTEGRATION.TEAM'
+}
+
+,
+{
+id: '0657749674', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'INTEGRATION DESIGNERS'
+}
+
+,
+{
+id: '0657753832', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'IDENTL T'
+}
+
+,
+{
+id: '0660727376', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'KAPTURE'
+}
+
+,
+{
+id: '0664613118', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'RKITEK'
+}
+
+,
+{
+id: '0664653106', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'M-IGHTY'
+}
+
+,
+{
+id: '0664940443', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'RMDY MOBILE'
+}
+
+,
+{
+id: '0664946381', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'DILIVIRI'
+}
+
+,
+{
+id: '0568855609', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'APTUS'
+}
+
+,
+{
+id: '0628955621', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'CRAFTWORKZ'
+}
+
+,
+{
+id: '0879917484', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'MONIN'
+}
+
+,
+{
+id: '0896165875', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'KLEIN'
+}
+
+,
+{
+id: '0474032466', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'QUADRANT COMMUNICATIONS'
+}
+
+,
+{
+id: '0628865054', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'KOHERA.SQL'
+}
+
+,
+{
+id: '0568853035', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'KNIGHT MOVES'
+}
+
+,
+{
+id: '0568843929', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'OPTIMINDS'
+}
+
+,
+{
+id: '0568836605', shape: 'diamond', color: '#d6a4f5', value: 10, label: '99STORIES'
+}
+
+,
+{
+id: '0635475605', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'INVISIBLE PUPPY'
+}
+
+,
+{
+id: '0568847986', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'LUNAR GRAVITY'
+}
+
+,
+{
+id: '0643653693', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'AVINITI'
+}
+
+,
+{
+id: '0641777734', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'BEWIRE'
+}
+
+,
+{
+id: '0635475011', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'XPLORE GROUP COMMERCE'
+}
+
+,
+{
+id: '0628954334', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'DATALUMEN'
+}
+
+,
+{
+id: '0632752972', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'CRONOS LEGAL'
+}
+
+,
+{
+id: '0607875838', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'WALKIE TALKIE'
+}
+
+,
+{
+id: '0628954928', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'FINSOURCE'
+}
+
+,
+{
+id: '0630778726', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'PICKLES AGENCY'
+}
+
+,
+{
+id: '0630780211', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'PROVIDIT'
+}
+
+,
+{
+id: '0634659419', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'RMDY CREATIVE'
+}
+
+,
+{
+id: '0832063723', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'DALLAS ANTWERP'
+}
+
+,
+{
+id: '0646891416', shape: 'diamond', color: '#d6a4f5', value: 10, label: '2TP'
+}
+
+,
+{
+id: '0895214978', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'V-IT'
+}
+
+,
+{
+id: '0644862631', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'ALTOGEE'
+}
+
+,
+{
+id: '0546743468', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'HOMELAND GROUP'
+}
+
+,
+{
+id: '0668667322', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'NEEDLE'
+}
+
+,
+{
+id: '0668668906', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'FLEXSO FOR PEOPLE'
+}
+
+,
+{
+id: '0669615942', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'BEBOLD'
+}
+
+,
+{
+id: '0669625345', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'BESPOKE SERVICES'
+}
+
+,
+{
+id: '0669628612', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'SINUBE'
+}
+
+,
+{
+id: '0669633758', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'EPIC DATA'
+}
+
+,
+{
+id: '0669636926', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'SIDEKICK'
+}
+
+,
+{
+id: '0669639795', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'SPARKLE'
+}
+
+,
+{
+id: '0669644052', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'CHANGELAB'
+}
+
+,
+{
+id: '0669652960', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'C-VALUE'
+}
+
+,
+{
+id: '0670541501', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'OSWALD AI'
+}
+
+,
+{
+id: '0670543875', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'YELLOW JERSEY'
+}
+
+,
+{
+id: '0670545162', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'VENTURE STUDIOS'
+}
+
+,
+{
+id: '0671581973', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'BOUTIQUE'
+}
+
+,
+{
+id: '0671586428', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'ARINTI'
+}
+
+,
+{
+id: '0673543848', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'FORWARD SERVICES'
+}
+
+,
+{
+id: '0673556023', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'ARCHERS'
+}
+
+,
+{
+id: '0673561367', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'RMDY WEB'
+}
+
+,
+{
+id: '0673566515', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'US BY NIGHT'
+}
+
+,
+{
+id: '0674819793', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'CRONOS UTILITIES'
+}
+
+,
+{
+id: '0674824149', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'DATASENSE'
+}
+
+,
+{
+id: '0674830879', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'EYECONS'
+}
+
+,
+{
+id: '0674831671', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'BRIGHTFOX'
+}
+
+,
+{
+id: '0675554817', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'BILLBOARD BASICS'
+}
+
+,
+{
+id: '0675558874', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'FLOWFACTOR'
+}
+
+,
+{
+id: '0675819289', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'SMARTAPPS'
+}
+
+,
+{
+id: '0676558667', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'NARATO DUO'
+}
+
+,
+{
+id: '0676562330', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'THE FLOW'
+}
+
+,
+{
+id: '0676713867', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'AKKADE'
+}
+
+,
+{
+id: '0676714065', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'REFLEQT'
+}
+
+,
+{
+id: '0676714263', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'SWEET MUSTARD'
+}
+
+,
+{
+id: '0677411376', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'ABANO'
+}
+
+,
+{
+id: '0677416326', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'STITCHD'
+}
+
+,
+{
+id: '0677544208', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'CRONOS AAN DE LEIE'
+}
+
+,
+{
+id: '0678735823', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'LEAP FORWARD'
+}
+
+,
+{
+id: '0678744731', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'ROBORANA'
+}
+
+,
+{
+id: '0679660687', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'XGTECH'
+}
+
+,
+{
+id: '0679661182', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'XGT CONSULT'
+}
+
+,
+{
+id: '0680476972', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'DYNAPPCO'
+}
+
+,
+{
+id: '0680481328', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'METEOR DIGITAL'
+}
+
+,
+{
+id: '0680482615', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'THE MAFFIA'
+}
+
+,
+{
+id: '0680906247', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'SOUTHFORK'
+}
+
+,
+{
+id: '0681730252', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'YELLOWGROUND'
+}
+
+,
+{
+id: '0685697057', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'KUNLABORA'
+}
+
+,
+{
+id: '0552540605', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'SOLVICE'
+}
+
+,
+{
+id: '0838080295', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'ZETICON'
+}
+
+,
+{
+id: '0672768937', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'IMEC.ISTART FUND'
+}
+
+,
+{
+id: '0888727559', shape: 'diamond', color: '#d6a4f5', value: 10, label: '3IT'
+}
+
+,
+{
+id: '0898181891', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'SERVE 4 GLORY'
+}
+
+,
+{
+id: '0480087147', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'SHIFTZ'
+}
+
+,
+{
+id: '0849888858', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'OWASES'
+}
+
+,
+{
+id: '0888899585', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'PEOPLE en SOLUTIONS'
+}
+
+,
+{
+id: '0687533723', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'TALENTBAY'
+}
+
+,
+{
+id: '0687534119', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'LOCUS SERVICES'
+}
+
+,
+{
+id: '0687534713', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'RMDY'
+}
+
+,
+{
+id: '0687534812', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'BITSOFDATA'
+}
+
+,
+{
+id: '0687535109', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'THEBLUELINK'
+}
+
+,
+{
+id: '0687535208', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'RADIKAL'
+}
+
+,
+{
+id: '0687827988', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'ONEDOT'
+}
+
+,
+{
+id: '0687833037', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'B.IGNITED'
+}
+
+,
+{
+id: '0687837292', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'ZINDERLABS'
+}
+
+,
+{
+id: '0688926464', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'MAKEOUT'
+}
+
+,
+{
+id: '0688926959', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'QINEXO'
+}
+
+,
+{
+id: '0688928147', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'MONSOON'
+}
+
+,
+{
+id: '0688929236', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'HUMANISTIX'
+}
+
+,
+{
+id: '0688930325', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'STUDIO HYPERDRIVE'
+}
+
+,
+{
+id: '0688931612', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'CATCOON'
+}
+
+,
+{
+id: '0690558638', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'BIZTORY BELGIUM'
+}
+
+,
+{
+id: '0690563487', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'BOSON CONTENT'
+}
+
+,
+{
+id: '0690565863', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'MARK TWO'
+}
+
+,
+{
+id: '0690567150', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'CRYPTEX'
+}
+
+,
+{
+id: '0691905750', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'WINGMEN'
+}
+
+,
+{
+id: '0691908126', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'FIRST FLOOR'
+}
+
+,
+{
+id: '0691910205', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'B.ADAPTED'
+}
+
+,
+{
+id: '0693686887', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'ELISION GROUP'
+}
+
+,
+{
+id: '0693689362', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'INDUXX'
+}
+
+,
+{
+id: '0694507231', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'PHPRO'
+}
+
+,
+{
+id: '0695503262', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'TRIPWIRE SOLUTIONS'
+}
+
+,
+{
+id: '0695512368', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'VAULTSPEED'
+}
+
+,
+{
+id: '0696871061', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'CLOUDWAY'
+}
+
+,
+{
+id: '0698600829', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'APPEEL.IO'
+}
+
+,
+{
+id: '0698603205', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'MIRROR DIGITAL OPERATIONS'
+}
+
+,
+{
+id: '0698985166', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'NEXTGEN SPORTS'
+}
+
+,
+{
+id: '0701959306', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'HEADR'
+}
+
+,
+{
+id: '0703884458', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'NOT A COMPANY'
+}
+
+,
+{
+id: '0704609483', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'DIGITAL PULSE'
+}
+
+,
+{
+id: '0707958755', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'SECWISE'
+}
+
+,
+{
+id: '0708925983', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'ELEVATE-IT'
+}
+
+,
+{
+id: '0712517359', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'BRAINJAR'
+}
+
+,
+{
+id: '0469878292', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'GREENROAD BUSINESS ASSOCIATES, AFGEKORT : GREENROAD.BIZ.'
+}
+
+,
+{
+id: '0424507632', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'FOCUS ADVERTISING'
+}
+
+,
+{
+id: '0728654694', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'DEBREUCK NEIRYNCK'
+}
+
+,
+{
+id: '0728657070', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'PULSEHCS'
+}
+
+,
+{
+id: '0728660733', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'INNATO'
+}
+
+,
+{
+id: '0728898481', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'AGILIZ'
+}
+
+,
+{
+id: '0728901154', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'CRONOS INVEST'
+}
+
+,
+{
+id: '0732659806', shape: 'diamond', color: '#d6a4f5', value: 10, label: '45DEGREES'
+}
+
+,
+{
+id: '0732708603', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'CLOUBIS'
+}
+
+,
+{
+id: '0732894386', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'HUMANX'
+}
+
+,
+{
+id: '0732917350', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'RACCOONS'
+}
+
+,
+{
+id: '0732930119', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'WAYFINDERS'
+}
+
+,
+{
+id: '0732931406', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'EDGISE'
+}
+
+,
+{
+id: '0733952082', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'SPRINTS en SNEAKERS BELGIE'
+}
+
+,
+{
+id: '0737870189', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'LEGILE'
+}
+
+,
+{
+id: '0738518309', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'NIMBUZ'
+}
+
+,
+{
+id: '0738522861', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'CAPTICO'
+}
+
+,
+{
+id: '0738973912', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'HIVED'
+}
+
+,
+{
+id: '0719266084', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'AUXILITY'
+}
+
+,
+{
+id: '0719267965', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'BIQ'
+}
+
+,
+{
+id: '0719277566', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'FACTIVITY'
+}
+
+,
+{
+id: '0719279744', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'HEAD FORWARD'
+}
+
+,
+{
+id: '0719282219', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'ROUTTY'
+}
+
+,
+{
+id: '0719283605', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'SMARTTIME'
+}
+
+,
+{
+id: '0719961021', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'EDENCEHEALTH'
+}
+
+,
+{
+id: '0719965474', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'MANTIS GAMES'
+}
+
+,
+{
+id: '0719974877', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'THE BUSINESS ANALYSTS CENTRUM'
+}
+
+,
+{
+id: '0719977055', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'INVISIBLE PUPPY ANTWERPEN'
+}
+
+,
+{
+id: '0719996455', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'THE BUSINESS ANALYSTS OOST'
+}
+
+,
+{
+id: '0720486997', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'THE BUSINESS ANALYSTS WEST'
+}
+
+,
+{
+id: '0720490957', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'LOCALYSE GROUP'
+}
+
+,
+{
+id: '0720496006', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'FLINQ'
+}
+
+,
+{
+id: '0717846421', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'INFOROAD'
+}
+
+,
+{
+id: '0717846619', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'NFUSE'
+}
+
+,
+{
+id: '0717854240', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'ECHO'
+}
+
+,
+{
+id: '0717857408', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'COLLABORATE'
+}
+
+,
+{
+id: '0717859683', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'ANTICIPATE'
+}
+
+,
+{
+id: '0720878759', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'LIFELIKE'
+}
+
+,
+{
+id: '0720881927', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'WHEELHOUSE'
+}
+
+,
+{
+id: '0725612458', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'UNCODED'
+}
+
+,
+{
+id: '0726914337', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'STUDIO360'
+}
+
+,
+{
+id: '0726933836', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'GUMBYS'
+}
+
+,
+{
+id: '0726934232', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'HODOR'
+}
+
+,
+{
+id: '0726934529', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'IFACTO INDUSTRY SOLUTIONS'
+}
+
+,
+{
+id: '0726934628', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'TROUBLE'
+}
+
+,
+{
+id: '0726944328', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'NøCOMPUTER'
+}
+
+,
+{
+id: '0726947791', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'NOEST'
+}
+
+,
+{
+id: '0727537711', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'BRIGHTFOX GROUP'
+}
+
+,
+{
+id: '0727542461', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'QUBIX'
+}
+
+,
+{
+id: '0727543847', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'TWO POINT O'
+}
+
+,
+{
+id: '0687533525', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'AMIGO SERVICES'
+}
+
+,
+{
+id: '0566963911', shape: 'diamond', color: '#d6a4f5', value: 10, label: 'GLOWFISH INTERACTIVE'
+}
+
+];
