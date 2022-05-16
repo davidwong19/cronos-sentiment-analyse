@@ -1,7 +1,7 @@
 from cmath import e
 import re
 
-file = open('staatsbladmonitor.txt', 'r')
+file = open('./companies_raw/staatsbladmonitor.txt', 'r')
 
 list_companies = []
 
@@ -17,4 +17,4 @@ for line in file:
 
 with open('companies_staatsblad.txt', 'w') as f:
     for item in list_companies:
-        f.write(item)
+        f.write(item + '\n')
