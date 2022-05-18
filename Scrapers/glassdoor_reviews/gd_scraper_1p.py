@@ -4,6 +4,9 @@ from datetime import datetime
 from googletrans import Translator
 import pandas as pd
 
+df = pd.read_csv('./Reviews_Merged/Reviews_Cronos.csv')
+index = df['id'].iloc[-1]
+print(index)
 
 def extract():
     headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36'}
@@ -34,14 +37,14 @@ def transform(soup):
 
         translator = Translator()
         opinion_en = translator.translate(opinion).text
-        
+        print(int(index+1))
         review = {
+            'id': int(index + 1),
             'company': '2Commit', # CHANGE THIS
             'date': date_clean_str,
             'opinion': opinion_en,
             'rating': rating,
-            'source': 'glassdoor' + '\n'
-            
+            'source': 'glassdoor'
         }
         reviewlist.append(review)
     return
