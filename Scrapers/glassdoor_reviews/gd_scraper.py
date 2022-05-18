@@ -9,15 +9,10 @@ import pandas as pd
 def extract(page):
     headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36'} # For additional information with request
     # List of URL's with Cronos Review page on Glassdoor, it contains a link to the FR, NL & EN version of the page.
-    urls = [
-        f'https://nl.glassdoor.be/Reviews/Cronos-Reviews-E871033_{page}.htm?sort.sortType=RD&sort.ascending=false&filter.iso3Language=nld',
-        f'https://www.glassdoor.co.uk/Reviews/Cronos-Reviews-E871033_{page}.htm?sort.sortType=RD&sort.ascending=false&filter.iso3Language=eng',
-        f'https://fr.glassdoor.be/Reviews/Cronos-Reviews-E871033_{page}.htm?sort.sortType=RD&sort.ascending=false&filter.iso3Language=fra'
-    ]
-    for url in urls: 
-        r = requests.get(url,headers=headers)
-        soup = BeautifulSoup(r.content, 'html.parser')
-        return soup
+    url = f'https://nl.glassdoor.be/Reviews/Cronos-Reviews-E871033_{page}.htm?sort.sortType=RD&sort.ascending=false&filter.iso3Language=nld'
+    r = requests.get(url,headers=headers)
+    soup = BeautifulSoup(r.content, 'html.parser')
+    return soup
 
 # Function for transforming the page content to a dictionary
 def transform(soup):
@@ -39,15 +34,16 @@ def transform(soup):
         opinion = pros + ', ' + cons # Combining pros and cons in one opinion string
 
         # This piece of code will translate the opinion in whatever language to EN
-        #translator = Translator()
-        #opinion_tr = translator.translate(opinion).text # Get only the translated text
+        translator = Translator()
+        opinion_tr = translator.translate(opinion).text # Get only the translated text
         
         # Put in an dictionary
         review = {
             'rating': rating,
-            'opinion': opinion,
+            'opinion': opinion_tr,
             'date': date_clean_str,
-            'source': 'glassdoor'
+            'source': 'glassdoor',
+            'company': 'cronos' # CHANGE THIS
         }
         reviewlist.append(review) # Adding the dictionary to a list
     return
@@ -55,7 +51,7 @@ def transform(soup):
 reviewlist = []
 
 # Going over the pages
-for i in range(0, 10):
+for i in range(0, 11):
     print(f'Getting page {i}')
     c = extract(f'P{i}')
     transform(c)

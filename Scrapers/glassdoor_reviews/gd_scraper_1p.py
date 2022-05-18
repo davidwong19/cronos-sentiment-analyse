@@ -10,7 +10,7 @@ def extract():
     #url = f'https://fr.glassdoor.be/Avis/Cronos-Avis-E871033.htm?sort.sortType=RD&sort.ascending=false&filter.iso3Language=fra'
     #url = 'https://nl.glassdoor.be/Reviews/Dynatos-Reviews-E6034680.htm'
     # www.glassdoor.co.uk
-    url = 'https://nl.glassdoor.be/Reviews/calibrate-Reviews-E4794775.htm'
+    url = 'https://www.glassdoor.co.uk/Reviews/2commit-Reviews-E2957174.htm?filter.iso3Language=eng'
     r = requests.get(url,headers=headers)
     soup = BeautifulSoup(r.content, 'html.parser')
     return soup
@@ -52,4 +52,4 @@ transform(c)
 
 df = pd.DataFrame(reviewlist)
 print(df.head())
-df.to_csv('glassdoor_reviews/CSV_Files/reviews_gd_companies3.csv', index=False, mode='a', header=False)
+df.to_csv('./Reviews_Merged/Reviews_Cronos.csv', index=False, mode='a', header=False)
