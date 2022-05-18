@@ -36,11 +36,12 @@ def transform(soup):
         opinion_en = translator.translate(opinion).text
         
         review = {
-            'rating': rating,
-            'opinion': opinion_en,
+            'company': '2Commit', # CHANGE THIS
             'date': date_clean_str,
-            'source': 'glassdoor',
-            'company': '' # CHANGE THIS
+            'opinion': opinion_en,
+            'rating': rating,
+            'source': 'glassdoor' + '\n'
+            
         }
         reviewlist.append(review)
     return
