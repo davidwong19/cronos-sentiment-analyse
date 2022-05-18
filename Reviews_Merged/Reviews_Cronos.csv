@@ -1,13 +1,11 @@
-,company,date,opinion,rating,source
+id,company,date,opinion,rating,source
 0,your oxygen ,14/02/2015,"December 2014 ben ik bij Your Oxygen ingeschreven, ze hadden me gecontacteerd ivm een werknemer van mij voor referenties....aangezien ik toen supervisor was bij Van Moer group. Na jaren dienst was ik toe aan een nieuwe boost en uitdaging in mijn loopbaan! Met dank aan Your Oxygen ben ik nu polyvalent medewerker bij Cogal Belgium Nv(gassector-chemie) met een direct vast bediendencontract en tal van extra legale voordelen",4.0,facebook
 1,ARXUS INC.,29/04/2018,Custom professional IT solutions.,5.0,google
 2,ARXUS INC.,29/04/2017,Belgian cloud at its best!,5.0,google
 3,ARXUS INC.,29/04/2018, Fast growing company with motivated people. Know what they are doing!,5.0,google
 4,ASTENA,2021-10-29,Ok,5.0,google
-5,ASTENA,29/07/2021," We are very disappointed in this company overall. REVAN BV
-",1.0,google
-6,ASTENA,29/04/2018," Looking for software for your construction or installation company, but you do not know how to get started. Collect a lot of info on this site.
-",5.0,google
+5,ASTENA,29/07/2021," We are very disappointed in this company overall. REVAN BV",1.0,google
+6,ASTENA,29/04/2018," Looking for software for your construction or installation company, but you do not know how to get started. Collect a lot of info on this site.",5.0,google
 7,Axeasy,29/04/2018,De beste outsourcing-oplossing in België,5.0,google
 8,Cronos Europa,29/04/2019,Human sense to build up your IT career 😊,5.0,google
 9,Cronos Europa,29/04/2021,Great place to work for technology addicted ppl,5.0,google
@@ -16,20 +14,15 @@
 12,Cronos Europa,29/04/2021,Very unprofessionnal,1.0,google
 13,Cronos Europa,29/04/2018,Close to the EU area close to the center,5.0,google
 14,Cronos Europa,29/04/2018,Great!,5.0,google
-15,Cronos Europa,29/04/2020," Human company and with good values.
- I recommend you work for them.
-",5.0,google
-16,Cronos Europa,29/04/2020,"Friendly and helpful staff waiting time correct.
-",4.0,google
+15,Cronos Europa,29/04/2020," Human company and with good values. I recommend you work for them.",5.0,google
+16,Cronos Europa,29/04/2020,"Friendly and helpful staff waiting time correct.",4.0,google
 17,Cronos Leuven,29/04/2018,Best place to work,5.0,google
 18,Cronos Leuven,29/04/2019,nice place,5.0,google
-19,Cronos Leuven,29/04/2019,"Cool company that sometimes pampers its employees with a photo booth in the office
-",5.0,google
+19,Cronos Leuven,29/04/2019,"Cool company that sometimes pampers its employees with a photo booth in the office",5.0,google
 20,Xplore Group,29/04/2020,No room for parking your car. Personal polite and very friendly. A little bit noisy exam room,2.0,google
 21,Xplore Group,29/07/2021,"Nice, clean and easily accessible facilities.",4.0,google
 22,Xplore Group,29/04/2018,"A super company, with very skilled people",5.0,google
-23,Xplore Group,29/04/2020," I took the Microsoft exam there. Nice and sound proof rooms for exam.
- ",5.0,google
+23,Xplore Group,29/04/2020," I took the Microsoft exam there. Nice and sound proof rooms for exam.",5.0,google
 24,Go4Logistics,29/04/2017,"Innovative, Young and Excellent in Logistics Management Software",5.0,google
 25,Headcount,29/04/2020,"A few years ago I came across one of the Cronos clusters via Headcount.
 I first had a conversation with Headcount itself. After the conversation, the Headcount consultant immediately knew what I wanted and she was able to outline my profile perfectly.
@@ -503,4 +496,4 @@ Evolution within the company, not very faithful to their promises.",5.0,stepston
 376,cronos,04/05/2022,"That non-compete clause is included so that you cannot sideline Cronos as an intermediary and start working directly with the end customer. I also thought that the wording in the ""standard contract"" was far too general, so I had it adapted so that only direct customers of the subsidiary I belong to apply to this.",3.0,beyondgaming
 377,cronos,04/05/2022,"That was not the case with my current intermediary. But I'm also like yeah don't put it in there. I also had a conversation with a lawyer from cronos, who didn't know exactly what was in the contract. I still had a bad feeling about the contract itself and yes I got myself into some trouble with that because I had already canceled my current one.",3.0,beyondgaming
 378,cronos,04/05/2022,"I had them for half a year as an intermediate company. They pay punctually, so that's no problem. The only thing I thought was wrong is that they have brought the payment term to 2 months because of Corona. My contract said something like ""if the customer breaks the contract with Cronos, the contract with the service provider will be terminated immediately without notice"". I had that adjusted to ""with the normally applicable notice period"". After all, their contracts aren't that bad, are they?",3.0,beyondgaming
-379,cronos,31/03/2021,This isn't about Cronos. But do you mean my new or old salary package? Because I have already heard that they are not always the best payers at Cronos.,3.0,beyondgaming
+379,cronos,31/03/2021,This isn't about Cronos. But do you mean my new or old salary package? Because I have already heard that they are not always the best payers at Cronos.,3.0,beyondgaming13,2Commit,27/04/2021,"The managing partners look for projects that fit your profile., Ultimately, it’s a consultancy company and they need to avoid having people on the bench so not all projects will be in Azure",3.0,glassdoor
