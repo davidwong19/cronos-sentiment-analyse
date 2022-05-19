@@ -16,7 +16,7 @@ def extract():
     #url = f'https://fr.glassdoor.be/Avis/Cronos-Avis-E871033.htm?sort.sortType=RD&sort.ascending=false&filter.iso3Language=fra'
     #url = 'https://nl.glassdoor.be/Reviews/Dynatos-Reviews-E6034680.htm'
     # www.glassdoor.co.uk
-    url = 'https://nl.glassdoor.be/Reviews/Bewire-Reviews-E1337164.htm?filter.iso3Language=nld'
+    url = 'https://nl.glassdoor.be/Reviews/Elision-Belgium-Reviews-E3413156.htm'
     r = requests.get(url,headers=headers)
     soup = BeautifulSoup(r.content, 'html.parser')
     return soup
@@ -51,7 +51,7 @@ def transform(soup):
 
         review = {
             '\n''id': new_id,
-            'company': 'BeWire', # CHANGE THIS
+            'company': 'Elision', # CHANGE THIS
             'opinion': opinion_en,
             'date': date_clean_str,
             'rating': rating,

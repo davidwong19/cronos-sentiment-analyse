@@ -8,7 +8,7 @@ from tqdm.notebook import tqdm
 
 sia = SentimentIntensityAnalyzer()
 
-df = pd.read_csv('./Reviews_Merged/final_reviews.csv')
+df = pd.read_csv(r'C:\Users\Rehts\Documents\Repositories\cronos-sentiment-analyse\MAIN\final_reviews.csv')
 id = df['id'].iloc[-1]
 
 def extract():
@@ -16,7 +16,7 @@ def extract():
     #url = f'https://fr.glassdoor.be/Avis/Cronos-Avis-E871033.htm?sort.sortType=RD&sort.ascending=false&filter.iso3Language=fra'
     #url = 'https://nl.glassdoor.be/Reviews/Dynatos-Reviews-E6034680.htm'
     # www.glassdoor.co.uk
-    url = 'https://nl.glassdoor.be/Reviews/Bewire-Reviews-E1337164.htm?filter.iso3Language=nld'
+    url = 'https://www.glassdoor.co.uk/Reviews/UFINITY-(Belgium)-Reviews-E1156114.htm?filter.iso3Language=eng'
     r = requests.get(url,headers=headers)
     soup = BeautifulSoup(r.content, 'html.parser')
     return soup
@@ -51,7 +51,7 @@ def transform(soup):
 
         review = {
             '\n''id': new_id,
-            'company': 'BeWire', # CHANGE THIS
+            'company': 'Ufinity', # CHANGE THIS
             'opinion': opinion_en,
             'date': date_clean_str,
             'rating': rating,
@@ -69,4 +69,4 @@ transform(c)
 
 df = pd.DataFrame(reviewlist)
 print(df.head())
-df.to_csv('./Reviews_Merged/final_reviews.csv', index=False, mode='a', header=False)
+df.to_csv(r'C:\Users\Rehts\Documents\Repositories\cronos-sentiment-analyse\MAIN\final_reviews.csv', index=False, mode='a', header=False)
