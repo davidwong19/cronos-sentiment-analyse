@@ -11,14 +11,12 @@ sia = SentimentIntensityAnalyzer()
 df = pd.read_csv('./Reviews_Merged/final_reviews.csv')
 id = df['id'].iloc[-1]
 
-print(df.head())
-
 def extract():
     headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36'}
     #url = f'https://fr.glassdoor.be/Avis/Cronos-Avis-E871033.htm?sort.sortType=RD&sort.ascending=false&filter.iso3Language=fra'
     #url = 'https://nl.glassdoor.be/Reviews/Dynatos-Reviews-E6034680.htm'
     # www.glassdoor.co.uk
-    url = 'https://www.glassdoor.co.uk/Reviews/2commit-Reviews-E2957174.htm?filter.iso3Language=eng'
+    url = 'https://nl.glassdoor.be/Reviews/Bewire-Reviews-E1337164.htm?filter.iso3Language=nld'
     r = requests.get(url,headers=headers)
     soup = BeautifulSoup(r.content, 'html.parser')
     return soup
@@ -53,7 +51,7 @@ def transform(soup):
 
         review = {
             '\n''id': new_id,
-            'company': '2Commit', # CHANGE THIS
+            'company': 'BeWire', # CHANGE THIS
             'opinion': opinion_en,
             'date': date_clean_str,
             'rating': rating,
