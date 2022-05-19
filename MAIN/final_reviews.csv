@@ -382,3 +382,14 @@ id,company,opinion,date,rating,source,score,sentiment
 405,iCredit,"No excellent plus points in which they distinguish themselves into, work atmosphere, team spirit way of working sometimes somewhat unprofessional/outdated -Slechte internal communication -a lot of course",23/05/2019,2,glassdoor,0.4939,positive
 406,iCredit,"Very good colleagues I learn a lot from, good open -minded people, small company, with few good customers",21/01/2021,5,glassdoor,0.8618,positive
 407,iCredit,"Friendly environment and awesome teamwork., Low retention amongst the operations team.",11/11/2020,5,glassdoor,0.7351,positive
+408,iLean,"Chance to learn a lotMany different clients and sectors, Lots of internal tension.Don't walk the talk.",15/09/2020,3,glassdoor,0.25,positive
+409,Jstack,"Expertise available, dynamic, customer -oriented, flat and cozy corporate culture, offices are sometimes noisy, limited parking space",15/04/2020,5,glassdoor,0.0,neutral
+410,Localyse,"A lot of room for own initiative, entrepreneurship and creativity., Due to the limited size of the organization, there are few growth options.",20/07/2021,4,glassdoor,0.1779,positive
+411,nControl,"- Small team- It is a good place to learn, - Because it is small, it feels like a sort of bubble- New tech is not in use",07/06/2019,3,glassdoor,0.6597,positive
+412,NextGen Sports,"Nice colleagues, extra legal benefits, difficult sector to start",09/12/2019,4,glassdoor,0.5267,positive
+413,NextGen Sports,"Good company to work for, Work from home kills the buzz",05/07/2021,4,glassdoor,-0.1531,negative
+414,Studio Hyperdrive,"You will be well guided here as a trainee so that you can grow well as a developer., Nothing to complain about.",17/05/2022,5,glassdoor,0.6497,positive
+415,Studio Hyperdrive,"Growing, young company. We work for various large customers., Currently growing very hard, which ensures a lot of change.",20/04/2022,5,glassdoor,0.1796,positive
+416,Ufinity,"people first open culture flat structure, sometimes somewhat chaotic and some need for structure but this improves",12/01/2021,5,glassdoor,0.5301,positive
+417,Ufinity,"Ufinity is a company with open communication where personal and professional development are high on the agenda.An ideal environment for a starter with a lot of enthusiasm and entrepreneurial sentence., For the time being it is still a small company, but fully growing!",20/04/2016,5,glassdoor,0.7124,positive
+418,Ufinity,"Good benefits, Friendly management and environment, No con , no work life balance",31/10/2016,4,glassdoor,0.6486,positive
