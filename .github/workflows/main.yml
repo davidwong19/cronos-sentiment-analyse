@@ -12,11 +12,11 @@ jobs:
       - uses: actions/checkout@v3
 
       - name: Update local files
-        run: python3 scraper_1p.py
+        run: python3 MAIN/scraper_1p.py
 
       - name: Commit files
         run: |
-          git config --local user.email "rehtseput@gmail.com"
+          git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git commit -m "Update data" -a
           
