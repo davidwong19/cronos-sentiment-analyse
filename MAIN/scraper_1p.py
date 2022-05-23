@@ -8,7 +8,7 @@ from tqdm.notebook import tqdm
 
 sia = SentimentIntensityAnalyzer()
 
-df = pd.read_csv(r'C:\Users\Rehts\Documents\Repositories\cronos-sentiment-analyse\MAIN\final_reviews.csv')
+df = pd.read_csv(r'MAIN\final_reviews.csv')
 id = df['id'].iloc[-1]
 
 def extract():
@@ -51,7 +51,7 @@ def transform(soup):
 
         review = {
             '\n''id': new_id,
-            'company': 'Ufinity', # CHANGE THIS
+            'company': 'TEST', # CHANGE THIS
             'opinion': opinion_en,
             'date': date_clean_str,
             'rating': rating,
@@ -69,4 +69,4 @@ transform(c)
 
 df = pd.DataFrame(reviewlist)
 print(df.head())
-df.to_csv(r'C:\Users\Rehts\Documents\Repositories\cronos-sentiment-analyse\MAIN\final_reviews.csv', index=False, mode='a', header=False)
+df.to_csv(r'MAIN\final_reviews.csv', index=False, mode='a', header=False)
