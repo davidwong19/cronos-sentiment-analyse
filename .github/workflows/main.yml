@@ -1,0 +1,26 @@
+name: Update data
+
+on:
+  schedule:
+    - cron: "5 * * * *"
+
+jobs:
+  execute:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Update local files
+        run: python3 scraper_1p.py
+
+      - name: Commit files
+        run: |
+          git config --local user.email "your@email.com"
+          git config --local user.name "GitHub Action"
+          git commit -m "Update data" -a
+          
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
