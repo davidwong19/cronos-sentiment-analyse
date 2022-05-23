@@ -16,7 +16,7 @@ jobs:
 
       - name: Commit files
         run: |
-          git config --local user.email "your@email.com"
+          git config --local user.email "rehtseput@gmail.com"
           git config --local user.name "GitHub Action"
           git commit -m "Update data" -a
           
