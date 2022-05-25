@@ -1,5 +1,7 @@
 # Cronos Sentiment Analyse
 
+Automation and final csv file: [Cronos Sentiment](https://github.com/Rehtsecp/Cronos-Sentiment.git)
+
 This is an readme file, that will explain how to use the scripts we used to gather, transform and analyse our data.
 
 **Technologies we used**
