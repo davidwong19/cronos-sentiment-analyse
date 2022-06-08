@@ -25,9 +25,6 @@ For the LinkedIn scraper we used Selenium to scrape the webapplication. You will
 To install all the required packages needed for our scraper, open a terminal where you cloned this repository and paste following command:
 - `pip install -r requirements.txt`
 
-### 1.2 Running the scripts
-You can run the python script by navigating to the **automation folder**. You need to change the directory in the various '.bat' files to where your 'python.exe' is located.
-
 ## 2. sources used to create dataset 'reviews_cronos_groep.csv'
 
 - indeed
