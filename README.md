@@ -22,12 +22,8 @@ We used pip to install the packages.
 
 For the LinkedIn scraper we used Selenium to scrape the webapplication. You will not only need to install the Selenium package. But you will need to webdrivers, according to your browser. More info: [Selenium with Python](https://selenium-python.readthedocs.io/)
 
-- 	`pip install pandas`
--   `pip install googletrans`
--   `pip install requests`
--   `pip install beautifulsoup4`
--   `pip install selenium`
--   `pip install textblob`
+To install all the required packages needed for our scraper, open a terminal where you cloned this repository and paste following command:
+- `pip install -r requirements.txt`
 
 ### 1.2 Running the scripts
 You can run the python script by navigating to the **automation folder**. You need to change the directory in the various '.bat' files to where your 'python.exe' is located.
