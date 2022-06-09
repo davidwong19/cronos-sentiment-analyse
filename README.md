@@ -23,7 +23,7 @@ Here you'll find the explaination on how to use the scripts we used to gather, t
 We will be using Python for scraping some of the websites. So there will be some necessities before running the scripts to scrape these websites.
 We used pip to install the packages.
 
-For the LinkedIn scraper we used Selenium to scrape the webapplication. You will not only need to install the Selenium package. But you will need to webdrivers, according to your browser. More info: [Selenium with Python](https://selenium-python.readthedocs.io/)
+For the LinkedIn scraper we used Selenium to scrape the webapplication. You will not only need to install the Selenium package. But you will need to install a webdriver, according to your browser. More info: [Selenium with Python](https://selenium-python.readthedocs.io/)
 
 To install all the required packages needed for our scraper, open a terminal where you cloned this repository and paste following command:
 - `pip install -r requirements.txt`
