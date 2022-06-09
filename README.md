@@ -6,7 +6,8 @@ This is an readme file, that will explain how to use the scripts we used to gath
 
 **Technologies we used**
 - Python
-- MongoDB
+- ~~MongoDB~~
+- GitHub Workflow
 - Power BI Desktop
 
 *Why we chose these technologies?*
