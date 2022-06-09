@@ -2,7 +2,9 @@
 
 Automation and final csv file: [Cronos Sentiment](https://github.com/Rehtsecp/Cronos-Sentiment.git)
 
-This is an readme file, that will explain how to use the scripts we used to gather, transform and analyse our data.
+Here you'll find the explaination on how to use the scripts we used to gather, transform and analyse our data.
+
+*I would reccomend going to our other repository (link above), this one will do everything you'll find in this repository but in an automated process.*
 
 **Technologies we used**
 - Python
