@@ -43,7 +43,7 @@ and for the google maps review we used a site called 'https://botster.io/registr
 
 ## 3. Sentiment Analysis
 
-An extensive explenation about the models and how to models work we used can be found in [Sentiment Analyse](https://github.com/davidwong19/cronos-sentiment-analyse/blob/main/SENTIMENT%20ANALYSIS%20REHTSE/sa_cronos.ipynb)
+An extensive explenation about the models and how to models work we used can be found in an IPython Notebook: [Sentiment Analyse](https://github.com/davidwong19/cronos-sentiment-analyse/blob/main/SENTIMENT%20ANALYSIS%20REHTSE/sa_cronos.ipynb)
 
 ## 4. folders
 
