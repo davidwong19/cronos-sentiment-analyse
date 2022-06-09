@@ -28,20 +28,24 @@ For the LinkedIn scraper we used Selenium to scrape the webapplication. You will
 To install all the required packages needed for our scraper, open a terminal where you cloned this repository and paste following command:
 - `pip install -r requirements.txt`
 
-All the scraped reviews are written to an CSV file.
 
 ## 2. sources used to create dataset 'reviews_cronos_groep.csv'
 
-- indeed
-- glassdoor
-- googl maps review
-- beyondgaming
-- facebook
+- Indeed
+- Glassdoor
+- Google Maps Reviews
+- Beyond Gaming
+- Facebook
+- Stepstone
 
-We made an scraper for Glassdoor and Indeed. sources like facebook, stepstone and  beyondgaming we used a chrome extention  called 'instant data scraper' 
+We made an scraper for Glassdoor and Indeed. Sources like facebook, stepstone and  beyondgaming we used a chrome extention  called 'instant data scraper' 
 and for the google maps review we used a site called 'https://botster.io/registration'.
 
-## 3. folders
+## 3. Sentiment Analysis
+
+
+
+## 4. folders
 
  1. code for datavisualisatie folder
 
