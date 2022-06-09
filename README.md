@@ -28,6 +28,8 @@ For the LinkedIn scraper we used Selenium to scrape the webapplication. You will
 To install all the required packages needed for our scraper, open a terminal where you cloned this repository and paste following command:
 - `pip install -r requirements.txt`
 
+All the scraped reviews are written to an CSV file.
+
 ## 2. sources used to create dataset 'reviews_cronos_groep.csv'
 
 - indeed
