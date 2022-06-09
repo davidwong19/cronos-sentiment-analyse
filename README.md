@@ -29,7 +29,7 @@ To install all the required packages needed for our scraper, open a terminal whe
 - `pip install -r requirements.txt`
 
 
-## 2. sources used to create dataset 'reviews_cronos_groep.csv'
+## 2. Sources used to create dataset 'reviews_cronos_groep.csv'
 
 - Indeed
 - Glassdoor
